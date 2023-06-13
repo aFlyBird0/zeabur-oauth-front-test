@@ -24,7 +24,7 @@ const router = createRouter({
       props: route => ({
         clientName: route.query.client_name,
         scope: route.query.scope,
-        authUrl: route.query.auth_url
+        requestId: route.query.request_id,
       })
     }
   ]
